@@ -1,10 +1,10 @@
 # Python-generated files
-__pycache__/
+__pycache__/ # 내부캐시
 *.py[oc]
-build/
+build/   # 빌드 파일만드는거
 dist/
 wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv # 가상환경, .시작은 숨김 파일

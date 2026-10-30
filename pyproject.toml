@@ -1,7 +1,9 @@
 [project]
 name = "first-project"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "Add your description here" # 설명
+readme = "README.md" # 젤 첫번째읽는 파일
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+]  # 아직은 없고 나중에 추가될거.
